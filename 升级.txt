@@ -1,0 +1,45 @@
+南京  192.168.152.150  192.168.152.151   
+苏州  192.168.152.242  192.168.152.243   
+无锡  192.168.152.100  192.168.152.101   
+常州  192.168.152.100  192.168.152.101   
+镇江  192.168.152.229   192.168.152.230  
+扬州  192.168.152.100  192.168.152.101   
+南通  192.168.152.229   192.168.152.230  
+泰州  192.168.152.150  192.168.152.151  
+徐州  192.168.152.150  192.168.152.151  
+淮安  192.168.152.133    WorkProEpon_ha  
+盐城  192.168.152.133    WorkProEpon_yc  
+连云港  192.168.152.229   192.168.152.230   
+宿迁  192.168.152.133    WorkProEpon   
+
+
+192.168.152.150  192.168.152.151  南京 泰州   徐州
+苏州  192.168.152.242  192.168.152.243
+192.168.152.100  192.168.152.101   常州 扬州 无锡 
+镇江 连云港   南通 192.168.152.229   192.168.152.230  
+192.168.152.133 淮安 盐城 宿迁
+
+/export/home/processSJZ/SnmpEponOpen_Oracle/WorkProEpon/src/20200731/SnmpConfEpon
+解压以后
+SnmpConfEpon  WorkProEpon
+编译 rm -rf *.o
+make.sh o
+
+
+/export/home/processSJZ/SnmpEponOpen_Oracle/SnmpConfEpon_yz
+
+1.192.168.152.100
+/export/home/processSJZ/SnmpEponOpen_Oracle/WorkProEpon/src/20200731/SnmpConfEpon
+解压
+SnmpConfEpon  WorkProEpon
+编译 rm -rf *.o
+make.sh o
+
+2.备份之前的进程
+/export/home/processSJZ/SnmpEponOpen_Oracle/SnmpConfEpon_yz
+
+cp -p /export/home/processSJZ/SnmpEponOpen_Oracle/WorkProEpon/src/20200731/SnmpConfEpon/SnmpConf /export/home/processSJZ/SnmpEponOpen_Oracle/SnmpConfEpon
+
+3.把第一步编译处理的进程拷贝到/export/home/processSJZ/SnmpEponOpen_Oracle/SnmpConfEpon_yz 并且更改名字
+
+给权限
