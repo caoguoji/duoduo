@@ -42,4 +42,4 @@ cp -p /export/home/processSJZ/SnmpEponOpen_Oracle/WorkProEpon/src/20200731/SnmpC
 
 3.把第一步编译处理的进程拷贝到/export/home/processSJZ/SnmpEponOpen_Oracle/SnmpConfEpon_yz 并且更改名字
 
-给权限
+给权限123abc
